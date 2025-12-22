@@ -49,5 +49,20 @@ def calculate_culprints(df):
     
     :param fd: data frame from pandas read_csv
     '''
-    culprit_dict = {}
+    culprit_dict = {"INFO":{}, "WARN":{}, "ERROR":{}}
     
+    for row in df.itertuples():
+        row_status = row.component_status
+        row_component = row.component
+
+        if row_component not in culprit_dict[row_status]:
+            culprit_dict[row_status][row_component] = 1
+        else:
+            culprit_dict[row_status][row_component] += 1
+
+    info_max = max(culprit_dict['INFO'].items(), key=lambda item: item[1])
+    warn_max = max(culprit_dict['WARN'].items(), key=lambda item: item[1])
+    error_max = max(culprit_dict['ERROR'].items(), key=lambda item: item[1])
+
+    return {"INFO": info_max, "WARN": warn_max, "ERROR": error_max}
+
