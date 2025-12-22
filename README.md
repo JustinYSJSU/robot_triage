@@ -2,9 +2,9 @@
 
 ## Objective
 - An interactive triage dashboard for (simulated) robotics telemetry logs
-- Automatically generate randomized triage logs for a robot with the following components:
+- Automatically create randomized triage logs for a robot with the following components:
   - Perception, Navigation, Actuators, Power
-- Generage analytics from triage logs regarding:
+- Generate analytics from triage logs regarding:
   - Total Mission Time
   - Distribution of log results 
     - INFO: Standard component behavior
