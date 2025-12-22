@@ -1,0 +1,500 @@
+2025-12-22 00:25:41.867131+00:00 | INFO | NAVIGATION | GPS Fix: 3D Fix acquired - satellites: 9 
+2025-12-22 00:25:41.867150+00:00 | INFO | POWER | Cooling fans active - current RPM: 514 
+2025-12-22 00:25:41.867157+00:00 | ERROR | NAVIGATION | Path planning failed: No valid route found to target 
+2025-12-22 00:25:41.867162+00:00 | WARN | NAVIGATION | Deviation from planned path: 1.9m 
+2025-12-22 00:25:41.867166+00:00 | INFO | ACTUATORS | Motor torque nominal on all 4 drives 
+2025-12-22 00:25:41.867169+00:00 | INFO | POWER | Battery Level: 90.1% - voltage stable 
+2025-12-22 00:25:41.867172+00:00 | INFO | PERCEPTION | Scanning for Waypoint markers... complete 
+2025-12-22 00:25:41.867175+00:00 | INFO | PERCEPTION | Object detection active - 1 objects in view 
+2025-12-22 00:25:41.867179+00:00 | INFO | POWER | Cooling fans active - current RPM: 514 
+2025-12-22 00:25:41.867181+00:00 | INFO | POWER | Battery Level: 90.1% - voltage stable 
+2025-12-22 00:25:41.867184+00:00 | INFO | ACTUATORS | Steering actuator aligned to zero-point 
+2025-12-22 00:25:41.867187+00:00 | INFO | ACTUATORS | Brake pressure check passed - system ready 
+2025-12-22 00:25:41.867190+00:00 | INFO | ACTUATORS | Steering actuator aligned to zero-point 
+2025-12-22 00:25:41.867192+00:00 | INFO | POWER | Cooling fans active - current RPM: 514 
+2025-12-22 00:25:41.867195+00:00 | INFO | NAVIGATION | GPS Fix: 3D Fix acquired - satellites: 9 
+2025-12-22 00:25:41.867198+00:00 | INFO | PERCEPTION | Scanning for Waypoint markers... complete 
+2025-12-22 00:25:41.867201+00:00 | INFO | PERCEPTION | Object detection active - 1 objects in view 
+2025-12-22 00:25:41.867203+00:00 | INFO | PERCEPTION | Scanning for Waypoint markers... complete 
+2025-12-22 00:25:41.867206+00:00 | INFO | ACTUATORS | Brake pressure check passed - system ready 
+2025-12-22 00:25:41.867209+00:00 | INFO | POWER | Battery Level: 90.1% - voltage stable 
+2025-12-22 00:25:41.867211+00:00 | INFO | POWER | Battery Level: 90.1% - voltage stable 
+2025-12-22 00:25:41.867214+00:00 | INFO | POWER | Power distribution board (PDB) reporting healthy rails 
+2025-12-22 00:25:41.867217+00:00 | INFO | NAVIGATION | GPS Fix: 3D Fix acquired - satellites: 9 
+2025-12-22 00:25:41.867220+00:00 | INFO | PERCEPTION | Object detection active - 1 objects in view 
+2025-12-22 00:25:41.867222+00:00 | INFO | PERCEPTION | Object detection active - 1 objects in view 
+2025-12-22 00:25:41.867225+00:00 | WARN | PERCEPTION | High latency in bounding box projection: 117ms 
+2025-12-22 00:25:41.867228+00:00 | WARN | POWER | High power draw from PERCEPTION suite - 167W 
+2025-12-22 00:25:41.867231+00:00 | ERROR | ACTUATORS | Motor_2 over-current: 401A - engaging E-Stop 
+2025-12-22 00:25:41.867234+00:00 | INFO | ACTUATORS | Steering actuator aligned to zero-point 
+2025-12-22 00:25:41.867236+00:00 | INFO | NAVIGATION | Global costmap updated successfully 
+2025-12-22 00:25:41.867239+00:00 | INFO | PERCEPTION | Camera exposure normalized - confidence score: 55 
+2025-12-22 00:25:41.867242+00:00 | INFO | NAVIGATION | Executing turn sequence - target angle: 16.7� 
+2025-12-22 00:25:41.867245+00:00 | INFO | NAVIGATION | GPS Fix: 3D Fix acquired - satellites: 9 
+2025-12-22 00:25:41.867248+00:00 | INFO | NAVIGATION | Route calculated to Waypoint_8 - distance: 5.5m 
+2025-12-22 00:25:41.867250+00:00 | INFO | POWER | Battery Level: 90.1% - voltage stable 
+2025-12-22 00:25:41.867255+00:00 | INFO | PERCEPTION | Scanning for Waypoint markers... complete 
+2025-12-22 00:25:41.867258+00:00 | ERROR | NAVIGATION | Global localization lost - particle filter divergence > 27 
+2025-12-22 00:25:41.867261+00:00 | INFO | POWER | Battery Level: 90.1% - voltage stable 
+2025-12-22 00:25:41.867263+00:00 | INFO | ACTUATORS | Brake pressure check passed - system ready 
+2025-12-22 00:25:41.867266+00:00 | INFO | NAVIGATION | Route calculated to Waypoint_8 - distance: 5.5m 
+2025-12-22 00:25:41.867269+00:00 | INFO | ACTUATORS | Brake pressure check passed - system ready 
+2025-12-22 00:25:41.867272+00:00 | INFO | POWER | Battery Level: 90.1% - voltage stable 
+2025-12-22 00:25:41.867275+00:00 | INFO | PERCEPTION | Scanning for Waypoint markers... complete 
+2025-12-22 00:25:41.867277+00:00 | INFO | PERCEPTION | Camera exposure normalized - confidence score: 55 
+2025-12-22 00:25:41.867280+00:00 | INFO | POWER | Power distribution board (PDB) reporting healthy rails 
+2025-12-22 00:25:41.867283+00:00 | INFO | PERCEPTION | Scanning for Waypoint markers... complete 
+2025-12-22 00:25:41.867285+00:00 | ERROR | NAVIGATION | IMU calibration drift detected - navigation suspended 
+2025-12-22 00:25:41.867288+00:00 | INFO | ACTUATORS | Brake pressure check passed - system ready 
+2025-12-22 00:25:41.867291+00:00 | INFO | NAVIGATION | GPS Fix: 3D Fix acquired - satellites: 9 
+2025-12-22 00:25:41.867293+00:00 | INFO | NAVIGATION | Route calculated to Waypoint_8 - distance: 5.5m 
+2025-12-22 00:25:41.867296+00:00 | INFO | PERCEPTION | Lidar spinning at 69Hz - publishing point cloud 
+2025-12-22 00:25:41.867298+00:00 | ERROR | ACTUATORS | Motor_2 over-current: 401A - engaging E-Stop 
+2025-12-22 00:25:41.867301+00:00 | INFO | NAVIGATION | Executing turn sequence - target angle: 16.7� 
+2025-12-22 00:25:41.867304+00:00 | INFO | PERCEPTION | Scanning for Waypoint markers... complete 
+2025-12-22 00:25:41.867307+00:00 | INFO | NAVIGATION | GPS Fix: 3D Fix acquired - satellites: 9 
+2025-12-22 00:25:41.867310+00:00 | INFO | PERCEPTION | Lidar spinning at 69Hz - publishing point cloud 
+2025-12-22 00:25:41.867312+00:00 | INFO | NAVIGATION | GPS Fix: 3D Fix acquired - satellites: 9 
+2025-12-22 00:25:41.867315+00:00 | INFO | PERCEPTION | Camera exposure normalized - confidence score: 55 
+2025-12-22 00:25:41.867317+00:00 | INFO | POWER | Battery Level: 90.1% - voltage stable 
+2025-12-22 00:25:41.867320+00:00 | INFO | POWER | Battery Level: 90.1% - voltage stable 
+2025-12-22 00:25:41.867323+00:00 | INFO | PERCEPTION | Camera exposure normalized - confidence score: 55 
+2025-12-22 00:25:41.867325+00:00 | INFO | NAVIGATION | Global costmap updated successfully 
+2025-12-22 00:25:41.867328+00:00 | WARN | ACTUATORS | Non-critical vibration detected in Drive_Train - frequency 76Hz 
+2025-12-22 00:25:41.867331+00:00 | INFO | ACTUATORS | Motor torque nominal on all 4 drives 
+2025-12-22 00:25:41.867334+00:00 | INFO | ACTUATORS | Motor torque nominal on all 4 drives 
+2025-12-22 00:25:41.867338+00:00 | INFO | PERCEPTION | Scanning for Waypoint markers... complete 
+2025-12-22 00:25:41.867340+00:00 | INFO | ACTUATORS | Steering actuator aligned to zero-point 
+2025-12-22 00:25:41.867343+00:00 | INFO | PERCEPTION | Lidar spinning at 69Hz - publishing point cloud 
+2025-12-22 00:25:41.867346+00:00 | INFO | POWER | Power distribution board (PDB) reporting healthy rails 
+2025-12-22 00:25:41.867348+00:00 | INFO | POWER | Cooling fans active - current RPM: 514 
+2025-12-22 00:25:41.867351+00:00 | INFO | ACTUATORS | Steering actuator aligned to zero-point 
+2025-12-22 00:25:41.867354+00:00 | INFO | ACTUATORS | Motor torque nominal on all 4 drives 
+2025-12-22 00:25:41.867356+00:00 | INFO | POWER | Cooling fans active - current RPM: 514 
+2025-12-22 00:25:41.867359+00:00 | INFO | ACTUATORS | Motor torque nominal on all 4 drives 
+2025-12-22 00:25:41.867361+00:00 | INFO | NAVIGATION | Executing turn sequence - target angle: 16.7� 
+2025-12-22 00:25:41.867364+00:00 | INFO | PERCEPTION | Lidar spinning at 69Hz - publishing point cloud 
+2025-12-22 00:25:41.867367+00:00 | INFO | ACTUATORS | Steering actuator aligned to zero-point 
+2025-12-22 00:25:41.867371+00:00 | INFO | POWER | Battery Level: 90.1% - voltage stable 
+2025-12-22 00:25:41.867373+00:00 | INFO | PERCEPTION | Camera exposure normalized - confidence score: 55 
+2025-12-22 00:25:41.867376+00:00 | INFO | ACTUATORS | Brake pressure check passed - system ready 
+2025-12-22 00:25:41.867379+00:00 | WARN | NAVIGATION | Re-planning route due to static obstacle at coord [23, 47. 
+2025-12-22 00:25:41.867381+00:00 | INFO | NAVIGATION | Global costmap updated successfully 
+2025-12-22 00:25:41.867384+00:00 | INFO | ACTUATORS | Brake pressure check passed - system ready 
+2025-12-22 00:25:41.867453+00:00 | WARN | PERCEPTION | Lidar point cloud density below threshold - distance 18m 
+2025-12-22 00:25:41.867459+00:00 | INFO | ACTUATORS | Brake pressure check passed - system ready 
+2025-12-22 00:25:41.867462+00:00 | INFO | POWER | Battery Level: 90.1% - voltage stable 
+2025-12-22 00:25:41.867465+00:00 | INFO | ACTUATORS | Brake pressure check passed - system ready 
+2025-12-22 00:25:41.867468+00:00 | INFO | NAVIGATION | GPS Fix: 3D Fix acquired - satellites: 9 
+2025-12-22 00:25:41.867471+00:00 | INFO | NAVIGATION | Executing turn sequence - target angle: 16.7� 
+2025-12-22 00:25:41.867473+00:00 | INFO | NAVIGATION | Executing turn sequence - target angle: 16.7� 
+2025-12-22 00:25:41.867476+00:00 | INFO | NAVIGATION | Global costmap updated successfully 
+2025-12-22 00:25:41.867479+00:00 | INFO | ACTUATORS | Brake pressure check passed - system ready 
+2025-12-22 00:25:41.867481+00:00 | INFO | ACTUATORS | Motor torque nominal on all 4 drives 
+2025-12-22 00:25:41.867484+00:00 | INFO | PERCEPTION | Object detection active - 1 objects in view 
+2025-12-22 00:25:41.867487+00:00 | WARN | NAVIGATION | Deviation from planned path: 1.9m 
+2025-12-22 00:25:41.867490+00:00 | INFO | POWER | Cooling fans active - current RPM: 514 
+2025-12-22 00:25:41.867492+00:00 | INFO | POWER | Battery Level: 90.1% - voltage stable 
+2025-12-22 00:25:41.867495+00:00 | INFO | NAVIGATION | Global costmap updated successfully 
+2025-12-22 00:25:41.867497+00:00 | INFO | POWER | Battery Level: 90.1% - voltage stable 
+2025-12-22 00:25:41.867500+00:00 | INFO | ACTUATORS | Brake pressure check passed - system ready 
+2025-12-22 00:25:41.867503+00:00 | INFO | POWER | Cooling fans active - current RPM: 514 
+2025-12-22 00:25:41.867505+00:00 | INFO | NAVIGATION | Route calculated to Waypoint_8 - distance: 5.5m 
+2025-12-22 00:25:41.867508+00:00 | INFO | PERCEPTION | Camera exposure normalized - confidence score: 55 
+2025-12-22 00:25:41.867511+00:00 | INFO | NAVIGATION | Global costmap updated successfully 
+2025-12-22 00:25:41.867514+00:00 | INFO | NAVIGATION | Executing turn sequence - target angle: 16.7� 
+2025-12-22 00:25:41.867517+00:00 | INFO | NAVIGATION | Global costmap updated successfully 
+2025-12-22 00:25:41.867519+00:00 | INFO | NAVIGATION | GPS Fix: 3D Fix acquired - satellites: 9 
+2025-12-22 00:25:41.867522+00:00 | INFO | ACTUATORS | Brake pressure check passed - system ready 
+2025-12-22 00:25:41.867524+00:00 | INFO | NAVIGATION | Executing turn sequence - target angle: 16.7� 
+2025-12-22 00:25:41.867527+00:00 | INFO | POWER | Battery Level: 90.1% - voltage stable 
+2025-12-22 00:25:41.867530+00:00 | INFO | PERCEPTION | Object detection active - 1 objects in view 
+2025-12-22 00:25:41.867532+00:00 | INFO | PERCEPTION | Camera exposure normalized - confidence score: 55 
+2025-12-22 00:25:41.867535+00:00 | INFO | NAVIGATION | GPS Fix: 3D Fix acquired - satellites: 9 
+2025-12-22 00:25:41.867538+00:00 | INFO | PERCEPTION | Object detection active - 1 objects in view 
+2025-12-22 00:25:41.867540+00:00 | INFO | PERCEPTION | Object detection active - 1 objects in view 
+2025-12-22 00:25:41.867543+00:00 | INFO | NAVIGATION | Global costmap updated successfully 
+2025-12-22 00:25:41.867546+00:00 | INFO | POWER | Battery Level: 90.1% - voltage stable 
+2025-12-22 00:25:41.867548+00:00 | INFO | POWER | Cooling fans active - current RPM: 514 
+2025-12-22 00:25:41.867551+00:00 | INFO | ACTUATORS | Steering actuator aligned to zero-point 
+2025-12-22 00:25:41.867554+00:00 | INFO | ACTUATORS | Motor torque nominal on all 4 drives 
+2025-12-22 00:25:41.867556+00:00 | INFO | ACTUATORS | Brake pressure check passed - system ready 
+2025-12-22 00:25:41.867559+00:00 | ERROR | POWER | Critical voltage drop: 124V - system shutdown imminent 
+2025-12-22 00:25:41.867562+00:00 | INFO | ACTUATORS | Brake pressure check passed - system ready 
+2025-12-22 00:25:41.867564+00:00 | INFO | ACTUATORS | Steering actuator aligned to zero-point 
+2025-12-22 00:25:41.867567+00:00 | INFO | NAVIGATION | Executing turn sequence - target angle: 16.7� 
+2025-12-22 00:25:41.867570+00:00 | INFO | ACTUATORS | Motor torque nominal on all 4 drives 
+2025-12-22 00:25:41.867573+00:00 | ERROR | NAVIGATION | Global localization lost - particle filter divergence > 27 
+2025-12-22 00:25:41.867576+00:00 | INFO | ACTUATORS | Brake pressure check passed - system ready 
+2025-12-22 00:25:41.867578+00:00 | INFO | POWER | Battery Level: 90.1% - voltage stable 
+2025-12-22 00:25:41.867581+00:00 | INFO | PERCEPTION | Camera exposure normalized - confidence score: 55 
+2025-12-22 00:25:41.867583+00:00 | INFO | ACTUATORS | Steering actuator aligned to zero-point 
+2025-12-22 00:25:41.867586+00:00 | INFO | PERCEPTION | Camera exposure normalized - confidence score: 55 
+2025-12-22 00:25:41.867589+00:00 | INFO | PERCEPTION | Lidar spinning at 69Hz - publishing point cloud 
+2025-12-22 00:25:41.867591+00:00 | INFO | POWER | Power distribution board (PDB) reporting healthy rails 
+2025-12-22 00:25:41.867594+00:00 | INFO | ACTUATORS | Brake pressure check passed - system ready 
+2025-12-22 00:25:41.867596+00:00 | INFO | POWER | Power distribution board (PDB) reporting healthy rails 
+2025-12-22 00:25:41.867599+00:00 | INFO | POWER | Battery Level: 90.1% - voltage stable 
+2025-12-22 00:25:41.867602+00:00 | INFO | NAVIGATION | GPS Fix: 3D Fix acquired - satellites: 9 
+2025-12-22 00:25:41.867605+00:00 | INFO | NAVIGATION | Route calculated to Waypoint_8 - distance: 5.5m 
+2025-12-22 00:25:41.867608+00:00 | INFO | POWER | Cooling fans active - current RPM: 514 
+2025-12-22 00:25:41.867610+00:00 | INFO | POWER | Battery Level: 90.1% - voltage stable 
+2025-12-22 00:25:41.867613+00:00 | INFO | NAVIGATION | Route calculated to Waypoint_8 - distance: 5.5m 
+2025-12-22 00:25:41.867615+00:00 | INFO | ACTUATORS | Steering actuator aligned to zero-point 
+2025-12-22 00:25:41.867618+00:00 | INFO | ACTUATORS | Brake pressure check passed - system ready 
+2025-12-22 00:25:41.867621+00:00 | INFO | POWER | Battery Level: 90.1% - voltage stable 
+2025-12-22 00:25:41.867623+00:00 | INFO | NAVIGATION | GPS Fix: 3D Fix acquired - satellites: 9 
+2025-12-22 00:25:41.867626+00:00 | INFO | POWER | Power distribution board (PDB) reporting healthy rails 
+2025-12-22 00:25:41.867629+00:00 | INFO | POWER | Cooling fans active - current RPM: 514 
+2025-12-22 00:25:41.867632+00:00 | INFO | PERCEPTION | Scanning for Waypoint markers... complete 
+2025-12-22 00:25:41.867634+00:00 | INFO | ACTUATORS | Brake pressure check passed - system ready 
+2025-12-22 00:25:41.867637+00:00 | INFO | POWER | Battery Level: 90.1% - voltage stable 
+2025-12-22 00:25:41.867639+00:00 | INFO | NAVIGATION | Executing turn sequence - target angle: 16.7� 
+2025-12-22 00:25:41.867642+00:00 | INFO | POWER | Battery Level: 90.1% - voltage stable 
+2025-12-22 00:25:41.867645+00:00 | INFO | POWER | Battery Level: 90.1% - voltage stable 
+2025-12-22 00:25:41.867648+00:00 | INFO | POWER | Power distribution board (PDB) reporting healthy rails 
+2025-12-22 00:25:41.867650+00:00 | INFO | NAVIGATION | Global costmap updated successfully 
+2025-12-22 00:25:41.867653+00:00 | INFO | NAVIGATION | Route calculated to Waypoint_8 - distance: 5.5m 
+2025-12-22 00:25:41.867656+00:00 | INFO | ACTUATORS | Steering actuator aligned to zero-point 
+2025-12-22 00:25:41.867659+00:00 | INFO | POWER | Battery Level: 90.1% - voltage stable 
+2025-12-22 00:25:41.867661+00:00 | INFO | POWER | Cooling fans active - current RPM: 514 
+2025-12-22 00:25:41.867664+00:00 | ERROR | POWER | Critical voltage drop: 124V - system shutdown imminent 
+2025-12-22 00:25:41.867668+00:00 | WARN | POWER | High power draw from PERCEPTION suite - 167W 
+2025-12-22 00:25:41.867671+00:00 | INFO | ACTUATORS | Motor torque nominal on all 4 drives 
+2025-12-22 00:25:41.867673+00:00 | INFO | PERCEPTION | Camera exposure normalized - confidence score: 55 
+2025-12-22 00:25:41.867676+00:00 | INFO | PERCEPTION | Scanning for Waypoint markers... complete 
+2025-12-22 00:25:41.867678+00:00 | INFO | POWER | Power distribution board (PDB) reporting healthy rails 
+2025-12-22 00:25:41.867681+00:00 | INFO | POWER | Battery Level: 90.1% - voltage stable 
+2025-12-22 00:25:41.867703+00:00 | INFO | ACTUATORS | Brake pressure check passed - system ready 
+2025-12-22 00:25:41.867706+00:00 | INFO | ACTUATORS | Steering actuator aligned to zero-point 
+2025-12-22 00:25:41.867709+00:00 | INFO | POWER | Power distribution board (PDB) reporting healthy rails 
+2025-12-22 00:25:41.867712+00:00 | INFO | PERCEPTION | Object detection active - 1 objects in view 
+2025-12-22 00:25:41.867715+00:00 | INFO | NAVIGATION | Global costmap updated successfully 
+2025-12-22 00:25:41.867717+00:00 | INFO | ACTUATORS | Steering actuator aligned to zero-point 
+2025-12-22 00:25:41.867720+00:00 | WARN | POWER | Cell imbalance detected in Bank_2: 92V difference 
+2025-12-22 00:25:41.867722+00:00 | INFO | ACTUATORS | Brake pressure check passed - system ready 
+2025-12-22 00:25:41.867725+00:00 | INFO | POWER | Cooling fans active - current RPM: 514 
+2025-12-22 00:25:41.867728+00:00 | INFO | NAVIGATION | Route calculated to Waypoint_8 - distance: 5.5m 
+2025-12-22 00:25:41.867730+00:00 | INFO | POWER | Power distribution board (PDB) reporting healthy rails 
+2025-12-22 00:25:41.867733+00:00 | INFO | ACTUATORS | Steering actuator aligned to zero-point 
+2025-12-22 00:25:41.867736+00:00 | WARN | POWER | Low battery warning: 11.4% remaining 
+2025-12-22 00:25:41.867738+00:00 | ERROR | POWER | Battery temperature exceeded 90�C - Safety Cutoff triggered 
+2025-12-22 00:25:41.867741+00:00 | ERROR | POWER | Internal short detected in Power_Module_2 
+2025-12-22 00:25:41.867744+00:00 | INFO | POWER | Battery Level: 90.1% - voltage stable 
+2025-12-22 00:25:41.867747+00:00 | INFO | NAVIGATION | Global costmap updated successfully 
+2025-12-22 00:25:41.867749+00:00 | INFO | PERCEPTION | Lidar spinning at 69Hz - publishing point cloud 
+2025-12-22 00:25:41.867752+00:00 | INFO | PERCEPTION | Camera exposure normalized - confidence score: 55 
+2025-12-22 00:25:41.867754+00:00 | INFO | PERCEPTION | Object detection active - 1 objects in view 
+2025-12-22 00:25:41.867757+00:00 | INFO | ACTUATORS | Brake pressure check passed - system ready 
+2025-12-22 00:25:41.867760+00:00 | INFO | NAVIGATION | Route calculated to Waypoint_8 - distance: 5.5m 
+2025-12-22 00:25:41.867762+00:00 | INFO | PERCEPTION | Lidar spinning at 69Hz - publishing point cloud 
+2025-12-22 00:25:41.867765+00:00 | INFO | NAVIGATION | Global costmap updated successfully 
+2025-12-22 00:25:41.867767+00:00 | INFO | NAVIGATION | Route calculated to Waypoint_8 - distance: 5.5m 
+2025-12-22 00:25:41.867770+00:00 | INFO | ACTUATORS | Steering actuator aligned to zero-point 
+2025-12-22 00:25:41.867773+00:00 | INFO | POWER | Cooling fans active - current RPM: 514 
+2025-12-22 00:25:41.867775+00:00 | INFO | POWER | Cooling fans active - current RPM: 514 
+2025-12-22 00:25:41.867778+00:00 | INFO | NAVIGATION | Global costmap updated successfully 
+2025-12-22 00:25:41.867781+00:00 | INFO | POWER | Cooling fans active - current RPM: 514 
+2025-12-22 00:25:41.867783+00:00 | INFO | ACTUATORS | Brake pressure check passed - system ready 
+2025-12-22 00:25:41.867786+00:00 | INFO | PERCEPTION | Camera exposure normalized - confidence score: 55 
+2025-12-22 00:25:41.867788+00:00 | INFO | POWER | Power distribution board (PDB) reporting healthy rails 
+2025-12-22 00:25:41.867791+00:00 | INFO | PERCEPTION | Scanning for Waypoint markers... complete 
+2025-12-22 00:25:41.867794+00:00 | INFO | NAVIGATION | GPS Fix: 3D Fix acquired - satellites: 9 
+2025-12-22 00:25:41.867796+00:00 | INFO | NAVIGATION | Executing turn sequence - target angle: 16.7� 
+2025-12-22 00:25:41.867799+00:00 | INFO | POWER | Power distribution board (PDB) reporting healthy rails 
+2025-12-22 00:25:41.867802+00:00 | INFO | ACTUATORS | Steering actuator aligned to zero-point 
+2025-12-22 00:25:41.867804+00:00 | ERROR | PERCEPTION | Lidar sensor timeout - no data on /scan topic 
+2025-12-22 00:25:41.867807+00:00 | INFO | ACTUATORS | Motor torque nominal on all 4 drives 
+2025-12-22 00:25:41.867810+00:00 | INFO | PERCEPTION | Lidar spinning at 69Hz - publishing point cloud 
+2025-12-22 00:25:41.867812+00:00 | INFO | ACTUATORS | Brake pressure check passed - system ready 
+2025-12-22 00:25:41.867815+00:00 | INFO | POWER | Cooling fans active - current RPM: 514 
+2025-12-22 00:25:41.867818+00:00 | INFO | ACTUATORS | Steering actuator aligned to zero-point 
+2025-12-22 00:25:41.867821+00:00 | INFO | NAVIGATION | Global costmap updated successfully 
+2025-12-22 00:25:41.867823+00:00 | INFO | PERCEPTION | Object detection active - 1 objects in view 
+2025-12-22 00:25:41.867826+00:00 | INFO | POWER | Cooling fans active - current RPM: 514 
+2025-12-22 00:25:41.867828+00:00 | INFO | ACTUATORS | Motor torque nominal on all 4 drives 
+2025-12-22 00:25:41.867831+00:00 | INFO | POWER | Battery Level: 90.1% - voltage stable 
+2025-12-22 00:25:41.867834+00:00 | INFO | NAVIGATION | GPS Fix: 3D Fix acquired - satellites: 9 
+2025-12-22 00:25:41.867836+00:00 | INFO | ACTUATORS | Motor torque nominal on all 4 drives 
+2025-12-22 00:25:41.867839+00:00 | ERROR | PERCEPTION | Obstruction detected: Sensor lens obscured or dirty 
+2025-12-22 00:25:41.867842+00:00 | INFO | ACTUATORS | Steering actuator aligned to zero-point 
+2025-12-22 00:25:41.867844+00:00 | INFO | PERCEPTION | Lidar spinning at 69Hz - publishing point cloud 
+2025-12-22 00:25:41.867847+00:00 | INFO | POWER | Battery Level: 90.1% - voltage stable 
+2025-12-22 00:25:41.867849+00:00 | INFO | NAVIGATION | GPS Fix: 3D Fix acquired - satellites: 9 
+2025-12-22 00:25:41.867852+00:00 | INFO | PERCEPTION | Camera exposure normalized - confidence score: 55 
+2025-12-22 00:25:41.867855+00:00 | WARN | NAVIGATION | Deviation from planned path: 1.9m 
+2025-12-22 00:25:41.867857+00:00 | INFO | NAVIGATION | Route calculated to Waypoint_8 - distance: 5.5m 
+2025-12-22 00:25:41.867860+00:00 | INFO | PERCEPTION | Camera exposure normalized - confidence score: 55 
+2025-12-22 00:25:41.867862+00:00 | INFO | POWER | Battery Level: 90.1% - voltage stable 
+2025-12-22 00:25:41.867865+00:00 | INFO | POWER | Cooling fans active - current RPM: 514 
+2025-12-22 00:25:41.867867+00:00 | INFO | POWER | Battery Level: 90.1% - voltage stable 
+2025-12-22 00:25:41.867870+00:00 | INFO | ACTUATORS | Motor torque nominal on all 4 drives 
+2025-12-22 00:25:41.867872+00:00 | INFO | PERCEPTION | Object detection active - 1 objects in view 
+2025-12-22 00:25:41.867875+00:00 | INFO | POWER | Battery Level: 90.1% - voltage stable 
+2025-12-22 00:25:41.867878+00:00 | INFO | PERCEPTION | Camera exposure normalized - confidence score: 55 
+2025-12-22 00:25:41.867881+00:00 | INFO | ACTUATORS | Motor torque nominal on all 4 drives 
+2025-12-22 00:25:41.867883+00:00 | WARN | PERCEPTION | Lidar point cloud density below threshold - distance 18m 
+2025-12-22 00:25:41.867886+00:00 | INFO | POWER | Battery Level: 90.1% - voltage stable 
+2025-12-22 00:25:41.867888+00:00 | INFO | PERCEPTION | Camera exposure normalized - confidence score: 55 
+2025-12-22 00:25:41.867891+00:00 | INFO | NAVIGATION | Global costmap updated successfully 
+2025-12-22 00:25:41.867893+00:00 | INFO | ACTUATORS | Motor torque nominal on all 4 drives 
+2025-12-22 00:25:41.867896+00:00 | INFO | POWER | Battery Level: 90.1% - voltage stable 
+2025-12-22 00:25:41.867898+00:00 | INFO | POWER | Battery Level: 90.1% - voltage stable 
+2025-12-22 00:25:41.867901+00:00 | INFO | NAVIGATION | Executing turn sequence - target angle: 16.7� 
+2025-12-22 00:25:41.867903+00:00 | INFO | PERCEPTION | Object detection active - 1 objects in view 
+2025-12-22 00:25:41.867906+00:00 | INFO | ACTUATORS | Brake pressure check passed - system ready 
+2025-12-22 00:25:41.867909+00:00 | INFO | POWER | Cooling fans active - current RPM: 514 
+2025-12-22 00:25:41.867912+00:00 | INFO | POWER | Power distribution board (PDB) reporting healthy rails 
+2025-12-22 00:25:41.867914+00:00 | INFO | NAVIGATION | GPS Fix: 3D Fix acquired - satellites: 9 
+2025-12-22 00:25:41.867917+00:00 | INFO | ACTUATORS | Brake pressure check passed - system ready 
+2025-12-22 00:25:41.867920+00:00 | INFO | PERCEPTION | Camera exposure normalized - confidence score: 55 
+2025-12-22 00:25:41.867922+00:00 | INFO | ACTUATORS | Steering actuator aligned to zero-point 
+2025-12-22 00:25:41.867940+00:00 | ERROR | ACTUATORS | Motor_2 over-current: 401A - engaging E-Stop 
+2025-12-22 00:25:41.867943+00:00 | INFO | NAVIGATION | Global costmap updated successfully 
+2025-12-22 00:25:41.867946+00:00 | INFO | POWER | Battery Level: 90.1% - voltage stable 
+2025-12-22 00:25:41.867948+00:00 | INFO | POWER | Power distribution board (PDB) reporting healthy rails 
+2025-12-22 00:25:41.867951+00:00 | INFO | POWER | Battery Level: 90.1% - voltage stable 
+2025-12-22 00:25:41.867954+00:00 | INFO | PERCEPTION | Object detection active - 1 objects in view 
+2025-12-22 00:25:41.867956+00:00 | INFO | ACTUATORS | Brake pressure check passed - system ready 
+2025-12-22 00:25:41.867959+00:00 | INFO | PERCEPTION | Lidar spinning at 69Hz - publishing point cloud 
+2025-12-22 00:25:41.867962+00:00 | INFO | PERCEPTION | Lidar spinning at 69Hz - publishing point cloud 
+2025-12-22 00:25:41.867964+00:00 | ERROR | NAVIGATION | Path planning failed: No valid route found to target 
+2025-12-22 00:25:41.867967+00:00 | INFO | ACTUATORS | Steering actuator aligned to zero-point 
+2025-12-22 00:25:41.867970+00:00 | INFO | PERCEPTION | Scanning for Waypoint markers... complete 
+2025-12-22 00:25:41.867973+00:00 | INFO | PERCEPTION | Lidar spinning at 69Hz - publishing point cloud 
+2025-12-22 00:25:41.867975+00:00 | INFO | PERCEPTION | Object detection active - 1 objects in view 
+2025-12-22 00:25:41.867978+00:00 | INFO | ACTUATORS | Steering actuator aligned to zero-point 
+2025-12-22 00:25:41.867981+00:00 | INFO | PERCEPTION | Camera exposure normalized - confidence score: 55 
+2025-12-22 00:25:41.867983+00:00 | INFO | POWER | Cooling fans active - current RPM: 514 
+2025-12-22 00:25:41.867986+00:00 | INFO | ACTUATORS | Motor torque nominal on all 4 drives 
+2025-12-22 00:25:41.867988+00:00 | INFO | NAVIGATION | GPS Fix: 3D Fix acquired - satellites: 9 
+2025-12-22 00:25:41.867991+00:00 | INFO | ACTUATORS | Steering actuator aligned to zero-point 
+2025-12-22 00:25:41.867994+00:00 | INFO | PERCEPTION | Lidar spinning at 69Hz - publishing point cloud 
+2025-12-22 00:25:41.867996+00:00 | INFO | ACTUATORS | Brake pressure check passed - system ready 
+2025-12-22 00:25:41.867999+00:00 | INFO | ACTUATORS | Motor torque nominal on all 4 drives 
+2025-12-22 00:25:41.868001+00:00 | INFO | ACTUATORS | Motor torque nominal on all 4 drives 
+2025-12-22 00:25:41.868004+00:00 | INFO | NAVIGATION | Global costmap updated successfully 
+2025-12-22 00:25:41.868007+00:00 | INFO | ACTUATORS | Steering actuator aligned to zero-point 
+2025-12-22 00:25:41.868009+00:00 | INFO | NAVIGATION | GPS Fix: 3D Fix acquired - satellites: 9 
+2025-12-22 00:25:41.868012+00:00 | INFO | NAVIGATION | Executing turn sequence - target angle: 16.7� 
+2025-12-22 00:25:41.868014+00:00 | INFO | NAVIGATION | Route calculated to Waypoint_8 - distance: 5.5m 
+2025-12-22 00:25:41.868017+00:00 | INFO | POWER | Cooling fans active - current RPM: 514 
+2025-12-22 00:25:41.868020+00:00 | INFO | POWER | Battery Level: 90.1% - voltage stable 
+2025-12-22 00:25:41.868022+00:00 | INFO | NAVIGATION | Executing turn sequence - target angle: 16.7� 
+2025-12-22 00:25:41.868025+00:00 | INFO | PERCEPTION | Camera exposure normalized - confidence score: 55 
+2025-12-22 00:25:41.868027+00:00 | INFO | ACTUATORS | Brake pressure check passed - system ready 
+2025-12-22 00:25:41.868030+00:00 | WARN | ACTUATORS | Slight friction detected in Steering_Rack - check alignment 
+2025-12-22 00:25:41.868033+00:00 | INFO | POWER | Battery Level: 90.1% - voltage stable 
+2025-12-22 00:25:41.868036+00:00 | INFO | ACTUATORS | Brake pressure check passed - system ready 
+2025-12-22 00:25:41.868038+00:00 | INFO | NAVIGATION | GPS Fix: 3D Fix acquired - satellites: 9 
+2025-12-22 00:25:41.868041+00:00 | INFO | ACTUATORS | Steering actuator aligned to zero-point 
+2025-12-22 00:25:41.868044+00:00 | INFO | ACTUATORS | Motor torque nominal on all 4 drives 
+2025-12-22 00:25:41.868046+00:00 | INFO | POWER | Cooling fans active - current RPM: 514 
+2025-12-22 00:25:41.868049+00:00 | INFO | PERCEPTION | Object detection active - 1 objects in view 
+2025-12-22 00:25:41.868051+00:00 | WARN | POWER | Cell imbalance detected in Bank_2: 92V difference 
+2025-12-22 00:25:41.868054+00:00 | INFO | ACTUATORS | Motor torque nominal on all 4 drives 
+2025-12-22 00:25:41.868057+00:00 | WARN | ACTUATORS | Motor_2 temperature rising: 88.8�C 
+2025-12-22 00:25:41.868059+00:00 | WARN | ACTUATORS | Non-critical vibration detected in Drive_Train - frequency 76Hz 
+2025-12-22 00:25:41.868062+00:00 | INFO | NAVIGATION | GPS Fix: 3D Fix acquired - satellites: 9 
+2025-12-22 00:25:41.868065+00:00 | INFO | NAVIGATION | Route calculated to Waypoint_8 - distance: 5.5m 
+2025-12-22 00:25:41.868067+00:00 | INFO | PERCEPTION | Camera exposure normalized - confidence score: 55 
+2025-12-22 00:25:41.868070+00:00 | INFO | POWER | Battery Level: 90.1% - voltage stable 
+2025-12-22 00:25:41.868073+00:00 | WARN | ACTUATORS | Non-critical vibration detected in Drive_Train - frequency 76Hz 
+2025-12-22 00:25:41.868075+00:00 | INFO | PERCEPTION | Lidar spinning at 69Hz - publishing point cloud 
+2025-12-22 00:25:41.868078+00:00 | INFO | PERCEPTION | Lidar spinning at 69Hz - publishing point cloud 
+2025-12-22 00:25:41.868081+00:00 | ERROR | POWER | Critical voltage drop: 124V - system shutdown imminent 
+2025-12-22 00:25:41.868084+00:00 | INFO | POWER | Cooling fans active - current RPM: 514 
+2025-12-22 00:25:41.868086+00:00 | INFO | ACTUATORS | Brake pressure check passed - system ready 
+2025-12-22 00:25:41.868089+00:00 | INFO | POWER | Power distribution board (PDB) reporting healthy rails 
+2025-12-22 00:25:41.868091+00:00 | INFO | PERCEPTION | Object detection active - 1 objects in view 
+2025-12-22 00:25:41.868094+00:00 | INFO | PERCEPTION | Object detection active - 1 objects in view 
+2025-12-22 00:25:41.868097+00:00 | INFO | POWER | Cooling fans active - current RPM: 514 
+2025-12-22 00:25:41.868099+00:00 | ERROR | ACTUATORS | Brake fluid pressure below safety threshold: 29psi 
+2025-12-22 00:25:41.868102+00:00 | INFO | PERCEPTION | Camera exposure normalized - confidence score: 55 
+2025-12-22 00:25:41.868105+00:00 | INFO | POWER | Cooling fans active - current RPM: 514 
+2025-12-22 00:25:41.868107+00:00 | INFO | PERCEPTION | Camera exposure normalized - confidence score: 55 
+2025-12-22 00:25:41.868110+00:00 | INFO | POWER | Battery Level: 90.1% - voltage stable 
+2025-12-22 00:25:41.868113+00:00 | INFO | POWER | Cooling fans active - current RPM: 514 
+2025-12-22 00:25:41.868116+00:00 | INFO | PERCEPTION | Lidar spinning at 69Hz - publishing point cloud 
+2025-12-22 00:25:41.868118+00:00 | INFO | ACTUATORS | Steering actuator aligned to zero-point 
+2025-12-22 00:25:41.868121+00:00 | INFO | ACTUATORS | Steering actuator aligned to zero-point 
+2025-12-22 00:25:41.868123+00:00 | INFO | PERCEPTION | Object detection active - 1 objects in view 
+2025-12-22 00:25:41.868126+00:00 | INFO | NAVIGATION | Global costmap updated successfully 
+2025-12-22 00:25:41.868129+00:00 | INFO | POWER | Power distribution board (PDB) reporting healthy rails 
+2025-12-22 00:25:41.868131+00:00 | INFO | POWER | Power distribution board (PDB) reporting healthy rails 
+2025-12-22 00:25:41.868134+00:00 | INFO | NAVIGATION | GPS Fix: 3D Fix acquired - satellites: 9 
+2025-12-22 00:25:41.868137+00:00 | WARN | NAVIGATION | Re-planning route due to static obstacle at coord [23, 47. 
+2025-12-22 00:25:41.868140+00:00 | INFO | PERCEPTION | Camera exposure normalized - confidence score: 55 
+2025-12-22 00:25:41.868142+00:00 | INFO | POWER | Cooling fans active - current RPM: 514 
+2025-12-22 00:25:41.868145+00:00 | INFO | NAVIGATION | Global costmap updated successfully 
+2025-12-22 00:25:41.868148+00:00 | INFO | POWER | Power distribution board (PDB) reporting healthy rails 
+2025-12-22 00:25:41.868151+00:00 | INFO | ACTUATORS | Brake pressure check passed - system ready 
+2025-12-22 00:25:41.868153+00:00 | ERROR | NAVIGATION | IMU calibration drift detected - navigation suspended 
+2025-12-22 00:25:41.868156+00:00 | INFO | PERCEPTION | Lidar spinning at 69Hz - publishing point cloud 
+2025-12-22 00:25:41.868177+00:00 | INFO | POWER | Battery Level: 90.1% - voltage stable 
+2025-12-22 00:25:41.868186+00:00 | INFO | POWER | Battery Level: 90.1% - voltage stable 
+2025-12-22 00:25:41.868188+00:00 | INFO | POWER | Battery Level: 90.1% - voltage stable 
+2025-12-22 00:25:41.868191+00:00 | INFO | POWER | Power distribution board (PDB) reporting healthy rails 
+2025-12-22 00:25:41.868194+00:00 | INFO | NAVIGATION | GPS Fix: 3D Fix acquired - satellites: 9 
+2025-12-22 00:25:41.868196+00:00 | INFO | ACTUATORS | Motor torque nominal on all 4 drives 
+2025-12-22 00:25:41.868199+00:00 | INFO | ACTUATORS | Steering actuator aligned to zero-point 
+2025-12-22 00:25:41.868201+00:00 | INFO | PERCEPTION | Camera exposure normalized - confidence score: 55 
+2025-12-22 00:25:41.868204+00:00 | INFO | ACTUATORS | Motor torque nominal on all 4 drives 
+2025-12-22 00:25:41.868207+00:00 | INFO | NAVIGATION | Route calculated to Waypoint_8 - distance: 5.5m 
+2025-12-22 00:25:41.868210+00:00 | WARN | NAVIGATION | GPS signal weak - tall buildings nearby (HDOP: 2.4 
+2025-12-22 00:25:41.868212+00:00 | INFO | POWER | Power distribution board (PDB) reporting healthy rails 
+2025-12-22 00:25:41.868215+00:00 | INFO | POWER | Battery Level: 90.1% - voltage stable 
+2025-12-22 00:25:41.868217+00:00 | INFO | PERCEPTION | Camera exposure normalized - confidence score: 55 
+2025-12-22 00:25:41.868220+00:00 | INFO | POWER | Cooling fans active - current RPM: 514 
+2025-12-22 00:25:41.868223+00:00 | WARN | PERCEPTION | Sun glare detected on Front_Camera - reducing confidence threshold] 
+2025-12-22 00:25:41.868225+00:00 | INFO | ACTUATORS | Brake pressure check passed - system ready 
+2025-12-22 00:25:41.868228+00:00 | INFO | ACTUATORS | Steering actuator aligned to zero-point 
+2025-12-22 00:25:41.868231+00:00 | INFO | NAVIGATION | Route calculated to Waypoint_8 - distance: 5.5m 
+2025-12-22 00:25:41.868233+00:00 | INFO | POWER | Cooling fans active - current RPM: 514 
+2025-12-22 00:25:41.868236+00:00 | INFO | POWER | Power distribution board (PDB) reporting healthy rails 
+2025-12-22 00:25:41.868239+00:00 | INFO | ACTUATORS | Steering actuator aligned to zero-point 
+2025-12-22 00:25:41.868241+00:00 | INFO | NAVIGATION | Route calculated to Waypoint_8 - distance: 5.5m 
+2025-12-22 00:25:41.868244+00:00 | INFO | ACTUATORS | Steering actuator aligned to zero-point 
+2025-12-22 00:25:41.868247+00:00 | INFO | POWER | Battery Level: 90.1% - voltage stable 
+2025-12-22 00:25:41.868249+00:00 | INFO | POWER | Cooling fans active - current RPM: 514 
+2025-12-22 00:25:41.868252+00:00 | INFO | ACTUATORS | Brake pressure check passed - system ready 
+2025-12-22 00:25:41.868254+00:00 | INFO | ACTUATORS | Brake pressure check passed - system ready 
+2025-12-22 00:25:41.868257+00:00 | INFO | NAVIGATION | Route calculated to Waypoint_8 - distance: 5.5m 
+2025-12-22 00:25:41.868260+00:00 | INFO | NAVIGATION | GPS Fix: 3D Fix acquired - satellites: 9 
+2025-12-22 00:25:41.868262+00:00 | INFO | PERCEPTION | Scanning for Waypoint markers... complete 
+2025-12-22 00:25:41.868265+00:00 | INFO | POWER | Power distribution board (PDB) reporting healthy rails 
+2025-12-22 00:25:41.868267+00:00 | INFO | PERCEPTION | Scanning for Waypoint markers... complete 
+2025-12-22 00:25:41.868270+00:00 | INFO | ACTUATORS | Brake pressure check passed - system ready 
+2025-12-22 00:25:41.868273+00:00 | INFO | NAVIGATION | Executing turn sequence - target angle: 16.7� 
+2025-12-22 00:25:41.868275+00:00 | INFO | POWER | Battery Level: 90.1% - voltage stable 
+2025-12-22 00:25:41.868278+00:00 | INFO | POWER | Cooling fans active - current RPM: 514 
+2025-12-22 00:25:41.868281+00:00 | INFO | ACTUATORS | Motor torque nominal on all 4 drives 
+2025-12-22 00:25:41.868283+00:00 | ERROR | PERCEPTION | Perception pipeline crash - auto-restart sequence initiated 
+2025-12-22 00:25:41.868286+00:00 | INFO | ACTUATORS | Brake pressure check passed - system ready 
+2025-12-22 00:25:41.868289+00:00 | INFO | POWER | Power distribution board (PDB) reporting healthy rails 
+2025-12-22 00:25:41.868291+00:00 | WARN | NAVIGATION | GPS signal weak - tall buildings nearby (HDOP: 2.4 
+2025-12-22 00:25:41.868294+00:00 | INFO | POWER | Power distribution board (PDB) reporting healthy rails 
+2025-12-22 00:25:41.868297+00:00 | INFO | PERCEPTION | Object detection active - 1 objects in view 
+2025-12-22 00:25:41.868299+00:00 | INFO | NAVIGATION | GPS Fix: 3D Fix acquired - satellites: 9 
+2025-12-22 00:25:41.868302+00:00 | INFO | NAVIGATION | Global costmap updated successfully 
+2025-12-22 00:25:41.868304+00:00 | INFO | PERCEPTION | Camera exposure normalized - confidence score: 55 
+2025-12-22 00:25:41.868307+00:00 | INFO | NAVIGATION | GPS Fix: 3D Fix acquired - satellites: 9 
+2025-12-22 00:25:41.868310+00:00 | INFO | NAVIGATION | Route calculated to Waypoint_8 - distance: 5.5m 
+2025-12-22 00:25:41.868312+00:00 | INFO | ACTUATORS | Steering actuator aligned to zero-point 
+2025-12-22 00:25:41.868315+00:00 | INFO | NAVIGATION | Route calculated to Waypoint_8 - distance: 5.5m 
+2025-12-22 00:25:41.868317+00:00 | INFO | PERCEPTION | Lidar spinning at 69Hz - publishing point cloud 
+2025-12-22 00:25:41.868320+00:00 | INFO | PERCEPTION | Scanning for Waypoint markers... complete 
+2025-12-22 00:25:41.868322+00:00 | INFO | PERCEPTION | Object detection active - 1 objects in view 
+2025-12-22 00:25:41.868325+00:00 | INFO | ACTUATORS | Steering actuator aligned to zero-point 
+2025-12-22 00:25:41.868328+00:00 | ERROR | NAVIGATION | Path planning failed: No valid route found to target 
+2025-12-22 00:25:41.868330+00:00 | INFO | ACTUATORS | Motor torque nominal on all 4 drives 
+2025-12-22 00:25:41.868333+00:00 | WARN | POWER | High power draw from PERCEPTION suite - 167W 
+2025-12-22 00:25:41.868336+00:00 | INFO | NAVIGATION | Executing turn sequence - target angle: 16.7� 
+2025-12-22 00:25:41.868338+00:00 | INFO | NAVIGATION | Route calculated to Waypoint_8 - distance: 5.5m 
+2025-12-22 00:25:41.868341+00:00 | INFO | PERCEPTION | Scanning for Waypoint markers... complete 
+2025-12-22 00:25:41.868343+00:00 | INFO | POWER | Cooling fans active - current RPM: 514 
+2025-12-22 00:25:41.868346+00:00 | ERROR | POWER | Critical voltage drop: 124V - system shutdown imminent 
+2025-12-22 00:25:41.868349+00:00 | INFO | POWER | Battery Level: 90.1% - voltage stable 
+2025-12-22 00:25:41.868351+00:00 | INFO | PERCEPTION | Scanning for Waypoint markers... complete 
+2025-12-22 00:25:41.868354+00:00 | INFO | ACTUATORS | Brake pressure check passed - system ready 
+2025-12-22 00:25:41.868357+00:00 | INFO | ACTUATORS | Motor torque nominal on all 4 drives 
+2025-12-22 00:25:41.868359+00:00 | INFO | NAVIGATION | Executing turn sequence - target angle: 16.7� 
+2025-12-22 00:25:41.868362+00:00 | INFO | POWER | Battery Level: 90.1% - voltage stable 
+2025-12-22 00:25:41.868364+00:00 | INFO | POWER | Cooling fans active - current RPM: 514 
+2025-12-22 00:25:41.868367+00:00 | INFO | ACTUATORS | Steering actuator aligned to zero-point 
+2025-12-22 00:25:41.868369+00:00 | INFO | PERCEPTION | Lidar spinning at 69Hz - publishing point cloud 
+2025-12-22 00:25:41.868372+00:00 | INFO | ACTUATORS | Motor torque nominal on all 4 drives 
+2025-12-22 00:25:41.868375+00:00 | INFO | NAVIGATION | Global costmap updated successfully 
+2025-12-22 00:25:41.868377+00:00 | INFO | PERCEPTION | Lidar spinning at 69Hz - publishing point cloud 
+2025-12-22 00:25:41.868380+00:00 | INFO | POWER | Power distribution board (PDB) reporting healthy rails 
+2025-12-22 00:25:41.868383+00:00 | WARN | POWER | Low battery warning: 11.4% remaining 
+2025-12-22 00:25:41.868386+00:00 | INFO | ACTUATORS | Motor torque nominal on all 4 drives 
+2025-12-22 00:25:41.868388+00:00 | INFO | ACTUATORS | Motor torque nominal on all 4 drives 
+2025-12-22 00:25:41.868391+00:00 | INFO | POWER | Cooling fans active - current RPM: 514 
+2025-12-22 00:25:41.868393+00:00 | INFO | NAVIGATION | Route calculated to Waypoint_8 - distance: 5.5m 
+2025-12-22 00:25:41.868396+00:00 | INFO | NAVIGATION | Route calculated to Waypoint_8 - distance: 5.5m 
+2025-12-22 00:25:41.868399+00:00 | INFO | ACTUATORS | Steering actuator aligned to zero-point 
+2025-12-22 00:25:41.868408+00:00 | INFO | PERCEPTION | Lidar spinning at 69Hz - publishing point cloud 
+2025-12-22 00:25:41.868411+00:00 | INFO | POWER | Power distribution board (PDB) reporting healthy rails 
+2025-12-22 00:25:41.868413+00:00 | INFO | NAVIGATION | Executing turn sequence - target angle: 16.7� 
+2025-12-22 00:25:41.868416+00:00 | INFO | POWER | Battery Level: 90.1% - voltage stable 
+2025-12-22 00:25:41.868419+00:00 | INFO | POWER | Battery Level: 90.1% - voltage stable 
+2025-12-22 00:25:41.868421+00:00 | INFO | NAVIGATION | GPS Fix: 3D Fix acquired - satellites: 9 
+2025-12-22 00:25:41.868424+00:00 | INFO | POWER | Power distribution board (PDB) reporting healthy rails 
+2025-12-22 00:25:41.868427+00:00 | INFO | PERCEPTION | Scanning for Waypoint markers... complete 
+2025-12-22 00:25:41.868429+00:00 | INFO | ACTUATORS | Brake pressure check passed - system ready 
+2025-12-22 00:25:41.868432+00:00 | INFO | ACTUATORS | Brake pressure check passed - system ready 
+2025-12-22 00:25:41.868434+00:00 | INFO | PERCEPTION | Scanning for Waypoint markers... complete 
+2025-12-22 00:25:41.868437+00:00 | INFO | POWER | Power distribution board (PDB) reporting healthy rails 
+2025-12-22 00:25:41.868440+00:00 | ERROR | NAVIGATION | Global localization lost - particle filter divergence > 27 
+2025-12-22 00:25:41.868442+00:00 | INFO | ACTUATORS | Steering actuator aligned to zero-point 
+2025-12-22 00:25:41.868445+00:00 | INFO | NAVIGATION | Executing turn sequence - target angle: 16.7� 
+2025-12-22 00:25:41.868448+00:00 | INFO | NAVIGATION | Executing turn sequence - target angle: 16.7� 
+2025-12-22 00:25:41.868451+00:00 | INFO | POWER | Battery Level: 90.1% - voltage stable 
+2025-12-22 00:25:41.868454+00:00 | INFO | ACTUATORS | Brake pressure check passed - system ready 
+2025-12-22 00:25:41.868456+00:00 | INFO | PERCEPTION | Object detection active - 1 objects in view 
+2025-12-22 00:25:41.868459+00:00 | INFO | ACTUATORS | Steering actuator aligned to zero-point 
+2025-12-22 00:25:41.868462+00:00 | INFO | POWER | Battery Level: 90.1% - voltage stable 
+2025-12-22 00:25:41.868464+00:00 | INFO | POWER | Power distribution board (PDB) reporting healthy rails 
+2025-12-22 00:25:41.868467+00:00 | INFO | POWER | Battery Level: 90.1% - voltage stable 
+2025-12-22 00:25:41.868469+00:00 | INFO | PERCEPTION | Lidar spinning at 69Hz - publishing point cloud 
+2025-12-22 00:25:41.868472+00:00 | INFO | ACTUATORS | Motor torque nominal on all 4 drives 
+2025-12-22 00:25:41.868475+00:00 | INFO | PERCEPTION | Camera exposure normalized - confidence score: 55 
+2025-12-22 00:25:41.868477+00:00 | INFO | ACTUATORS | Motor torque nominal on all 4 drives 
+2025-12-22 00:25:41.868480+00:00 | INFO | NAVIGATION | GPS Fix: 3D Fix acquired - satellites: 9 
+2025-12-22 00:25:41.868482+00:00 | WARN | POWER | High power draw from PERCEPTION suite - 167W 
+2025-12-22 00:25:41.868485+00:00 | INFO | NAVIGATION | Executing turn sequence - target angle: 16.7� 
+2025-12-22 00:25:41.868488+00:00 | INFO | PERCEPTION | Object detection active - 1 objects in view 
+2025-12-22 00:25:41.868490+00:00 | INFO | NAVIGATION | Executing turn sequence - target angle: 16.7� 
+2025-12-22 00:25:41.868493+00:00 | INFO | ACTUATORS | Motor torque nominal on all 4 drives 
+2025-12-22 00:25:41.868496+00:00 | INFO | ACTUATORS | Steering actuator aligned to zero-point 
+2025-12-22 00:25:41.868498+00:00 | INFO | PERCEPTION | Camera exposure normalized - confidence score: 55 
+2025-12-22 00:25:41.868501+00:00 | INFO | POWER | Power distribution board (PDB) reporting healthy rails 
+2025-12-22 00:25:41.868504+00:00 | INFO | ACTUATORS | Steering actuator aligned to zero-point 
+2025-12-22 00:25:41.868506+00:00 | INFO | ACTUATORS | Brake pressure check passed - system ready 
+2025-12-22 00:25:41.868509+00:00 | INFO | ACTUATORS | Motor torque nominal on all 4 drives 
+2025-12-22 00:25:41.868511+00:00 | INFO | POWER | Battery Level: 90.1% - voltage stable 
+2025-12-22 00:25:41.868514+00:00 | INFO | PERCEPTION | Lidar spinning at 69Hz - publishing point cloud 
+2025-12-22 00:25:41.868517+00:00 | WARN | ACTUATORS | Slight friction detected in Steering_Rack - check alignment 
+2025-12-22 00:25:41.868520+00:00 | INFO | NAVIGATION | Global costmap updated successfully 
+2025-12-22 00:25:41.868522+00:00 | INFO | ACTUATORS | Brake pressure check passed - system ready 
+2025-12-22 00:25:41.868525+00:00 | INFO | POWER | Cooling fans active - current RPM: 514 
+2025-12-22 00:25:41.868527+00:00 | INFO | PERCEPTION | Camera exposure normalized - confidence score: 55 
+2025-12-22 00:25:41.868530+00:00 | INFO | PERCEPTION | Lidar spinning at 69Hz - publishing point cloud 
+2025-12-22 00:25:41.868533+00:00 | INFO | NAVIGATION | GPS Fix: 3D Fix acquired - satellites: 9 
+2025-12-22 00:25:41.868535+00:00 | INFO | ACTUATORS | Brake pressure check passed - system ready 
+2025-12-22 00:25:41.868538+00:00 | WARN | POWER | High power draw from PERCEPTION suite - 167W 
+2025-12-22 00:25:41.868541+00:00 | INFO | PERCEPTION | Object detection active - 1 objects in view 
+2025-12-22 00:25:41.868543+00:00 | INFO | POWER | Battery Level: 90.1% - voltage stable 
+2025-12-22 00:25:41.868546+00:00 | WARN | PERCEPTION | Sun glare detected on Front_Camera - reducing confidence threshold] 
+2025-12-22 00:25:41.868549+00:00 | INFO | ACTUATORS | Brake pressure check passed - system ready 
+2025-12-22 00:25:41.868551+00:00 | INFO | NAVIGATION | GPS Fix: 3D Fix acquired - satellites: 9 
+2025-12-22 00:25:41.868554+00:00 | INFO | POWER | Battery Level: 90.1% - voltage stable 
+2025-12-22 00:25:41.868556+00:00 | INFO | POWER | Power distribution board (PDB) reporting healthy rails 
+2025-12-22 00:25:41.868559+00:00 | INFO | NAVIGATION | Route calculated to Waypoint_8 - distance: 5.5m 
+2025-12-22 00:25:41.868561+00:00 | INFO | POWER | Power distribution board (PDB) reporting healthy rails 
+2025-12-22 00:25:41.868564+00:00 | INFO | PERCEPTION | Camera exposure normalized - confidence score: 55 
+2025-12-22 00:25:41.868567+00:00 | INFO | ACTUATORS | Brake pressure check passed - system ready 
+2025-12-22 00:25:41.868569+00:00 | INFO | NAVIGATION | Global costmap updated successfully 
+2025-12-22 00:25:41.868572+00:00 | INFO | POWER | Battery Level: 90.1% - voltage stable 
+2025-12-22 00:25:41.868574+00:00 | INFO | PERCEPTION | Scanning for Waypoint markers... complete 
+2025-12-22 00:25:41.868577+00:00 | INFO | PERCEPTION | Lidar spinning at 69Hz - publishing point cloud 
+2025-12-22 00:25:41.868580+00:00 | INFO | NAVIGATION | Route calculated to Waypoint_8 - distance: 5.5m 
+2025-12-22 00:25:41.868583+00:00 | INFO | NAVIGATION | Global costmap updated successfully 
+2025-12-22 00:25:41.868585+00:00 | WARN | ACTUATORS | Motor_2 temperature rising: 88.8�C 
+2025-12-22 00:25:41.868588+00:00 | INFO | ACTUATORS | Steering actuator aligned to zero-point 
+2025-12-22 00:25:41.868590+00:00 | INFO | PERCEPTION | Object detection active - 1 objects in view 
+2025-12-22 00:25:41.868593+00:00 | INFO | PERCEPTION | Lidar spinning at 69Hz - publishing point cloud 
+2025-12-22 00:25:41.868595+00:00 | INFO | PERCEPTION | Camera exposure normalized - confidence score: 55 
+2025-12-22 00:25:41.868598+00:00 | INFO | NAVIGATION | Global costmap updated successfully 
+2025-12-22 00:25:41.868601+00:00 | INFO | NAVIGATION | Route calculated to Waypoint_8 - distance: 5.5m 
+2025-12-22 00:25:41.868603+00:00 | INFO | POWER | Cooling fans active - current RPM: 514 
+2025-12-22 00:25:41.868606+00:00 | INFO | ACTUATORS | Brake pressure check passed - system ready 
+2025-12-22 00:25:41.868608+00:00 | INFO | NAVIGATION | Executing turn sequence - target angle: 16.7� 
+2025-12-22 00:25:41.868611+00:00 | INFO | NAVIGATION | Route calculated to Waypoint_8 - distance: 5.5m 
+2025-12-22 00:25:41.868614+00:00 | INFO | PERCEPTION | Object detection active - 1 objects in view 
+2025-12-22 00:25:41.868617+00:00 | INFO | ACTUATORS | Motor torque nominal on all 4 drives 
+2025-12-22 00:25:41.868619+00:00 | INFO | POWER | Battery Level: 90.1% - voltage stable 
+2025-12-22 00:25:41.868622+00:00 | INFO | ACTUATORS | Brake pressure check passed - system ready 
+2025-12-22 00:25:41.868624+00:00 | INFO | PERCEPTION | Scanning for Waypoint markers... complete 
+2025-12-22 00:25:41.868633+00:00 | INFO | ACTUATORS | Motor torque nominal on all 4 drives 
