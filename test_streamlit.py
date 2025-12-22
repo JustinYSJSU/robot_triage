@@ -9,5 +9,6 @@ p.parent.mkdir(parents=True, exist_ok=True)
 
 st.title("Robotics Log Triage")
 
+st.write("Hello")
 if st.button("Generate Triage", type="primary"):
     generate_logs(p)

@@ -80,7 +80,7 @@ def generate_logs(path):
                 component_status = "ERROR"
 
             component_message = random.choice(COMPONENT_STATUS_MESSAGES[component][component_status])
-            file.write(f"{utc_timestamp} | {component_status} | {component} | {component_message} \n")
+            file.write(f"{utc_timestamp}|{component_status}|{component}|{component_message} \n")
             utc_timestamp += timedelta(seconds=random.randint(5, 10))
             
             
