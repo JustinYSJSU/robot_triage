@@ -75,7 +75,6 @@ if generate_btn:
 
     st.divider()
 
-    # --- Row 3: Logs ---
     st.markdown("#### Mission Logs")
     with st.expander("Click to view raw telemetry logs", expanded=False):
         st.dataframe(df, use_container_width=True, height=500)

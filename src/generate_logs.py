@@ -60,8 +60,6 @@ COMPONENT_STATUS_MESSAGES = {
     }
 }
 
-# [TIMESTAMP][STATUS][COMPONENT][MESSAGE]
-
 def generate_logs(path):
     with path.open('w') as file:
         utc_timestamp = datetime.datetime.now(datetime.timezone.utc)
