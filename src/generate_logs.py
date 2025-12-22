@@ -62,63 +62,32 @@ COMPONENT_STATUS_MESSAGES = {
 
 # [TIMESTAMP][STATUS][COMPONENT][MESSAGE]
 
-p = Path("../data/robot_data.log")
-p.parent.mkdir(parents=True, exist_ok=True)
+def generate_logs(path):
+    with path.open('w') as file:
+        utc_timestamp = datetime.datetime.now(datetime.timezone.utc)
+        for x in range (0,FILE_LENGTH):
+            component = random.choice(COMPONENTS)
 
-with p.open('w') as file:
-    utc_timestamp = datetime.datetime.now(datetime.timezone.utc)
-    for x in range (0,FILE_LENGTH):
-        component = random.choice(COMPONENTS)
-
-        component_status = ""
-        component_message = ""
-        status_probability = round(random.random(), 2)
-        
-        if status_probability < 0.9:
-            component_status = "INFO"
-        elif status_probability < 0.97:
-            component_status = "WARN"
-        else:
-            component_status = "ERROR"
-
-        # triage logic for component + status -> message
-
-        if component == 'PERCEPTION':
-            if component_status == 'INFO':
-                component_message = random.choice(COMPONENT_STATUS_MESSAGES['PERCEPTION']['INFO'])
-            elif component_status == 'WARN':
-                component_message = random.choice(COMPONENT_STATUS_MESSAGES['PERCEPTION']['WARN'])
+            component_status = ""
+            component_message = ""
+            status_probability = round(random.random(), 2)
+            
+            if status_probability < 0.9:
+                component_status = "INFO"
+            elif status_probability < 0.97:
+                component_status = "WARN"
             else:
-                component_message = random.choice(COMPONENT_STATUS_MESSAGES['PERCEPTION']['ERROR'])
-        elif component == 'NAVIGATION':
-            if component_status == 'INFO':
-                component_message = random.choice(COMPONENT_STATUS_MESSAGES['NAVIGATION']['INFO'])
-            elif component_status == 'WARN':
-                component_message = random.choice(COMPONENT_STATUS_MESSAGES['NAVIGATION']['WARN'])
-            else:
-                component_message = random.choice(COMPONENT_STATUS_MESSAGES['NAVIGATION']['ERROR'])
-        elif component == 'ACTUATORS':
-            if component_status == 'INFO':
-                component_message = random.choice(COMPONENT_STATUS_MESSAGES['ACTUATORS']['INFO'])
-            elif component_status == 'WARN':
-                component_message = random.choice(COMPONENT_STATUS_MESSAGES['ACTUATORS']['WARN'])
-            else:
-                component_message = random.choice(COMPONENT_STATUS_MESSAGES['ACTUATORS']['ERROR'])
-        else:
-            if component_status == 'INFO':
-                component_message = random.choice(COMPONENT_STATUS_MESSAGES['POWER']['INFO'])
-            elif component_status == 'WARN':
-                component_message = random.choice(COMPONENT_STATUS_MESSAGES['POWER']['WARN'])
-            else:
-                component_message = random.choice(COMPONENT_STATUS_MESSAGES['POWER']['ERROR'])
-        file.write(f"{utc_timestamp} | {component_status} | {component} | {component_message} \n")
-        utc_timestamp += timedelta(seconds=random.randint(5, 10))
-        
-        
+                component_status = "ERROR"
 
-        
+            component_message = random.choice(COMPONENT_STATUS_MESSAGES[component][component_status])
+            file.write(f"{utc_timestamp} | {component_status} | {component} | {component_message} \n")
+            utc_timestamp += timedelta(seconds=random.randint(5, 10))
+            
+            
+
+            
 
 
 
-        
+            
 
