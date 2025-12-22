@@ -1,6 +1,13 @@
 import pandas as pd
 from pathlib import Path
 
+'''
+current_dir = Path(__file__).parent.parent
+p = current_dir / "data" / "robot_data.log"
+p.parent.mkdir(parents=True, exist_ok=True)
+df = pd.read_csv(p, sep='|', names=['timestamp', 'component_status', 'component', 'component_status_message'], encoding='ISO-8859-1')
+'''
+
 def calculate_mission_time(df):
     '''
     Calculate total time of the mission
@@ -37,10 +44,9 @@ def calculate_status_count(df):
             status_dict[row.component_status] = 1
     return status_dict
 
-def calculate_culprits(df):
+def calculate_status_by_component(df):
     '''
-    Calculate the "culprit" of each component status
-    "culprit" refers to the component with the highest count of a status
+    Calcualte the frequency of each status by component
     
     :param fd: data frame from pandas read_csv
     '''
@@ -54,10 +60,8 @@ def calculate_culprits(df):
             culprit_dict[row_status][row_component] = 1
         else:
             culprit_dict[row_status][row_component] += 1
+    return pd.DataFrame(data=culprit_dict)
 
-    info_max = max(culprit_dict['INFO'].items(), key=lambda item: item[1])
-    warn_max = max(culprit_dict['WARN'].items(), key=lambda item: item[1])
-    error_max = max(culprit_dict['ERROR'].items(), key=lambda item: item[1])
 
-    return {"INFO": info_max, "WARN": warn_max, "ERROR": error_max}
+
 
