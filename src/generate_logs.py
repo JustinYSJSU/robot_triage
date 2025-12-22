@@ -3,7 +3,6 @@ import random
 from datetime import timedelta
 from pathlib import Path
 
-FILE_PATH_AND_NAME = "../data/robot_data.log"
 FILE_LENGTH = 500
 COMPONENTS = [
     "PERCEPTION",
@@ -11,9 +10,6 @@ COMPONENTS = [
     "ACTUATORS",
     "POWER"
 ]
-
-p = Path("../data/robot_data.log")
-p.parent.mkdir(parents=True, exist_ok=True)
 
 COMPONENT_STATUS_MESSAGES = {
     "PERCEPTION":{
@@ -65,6 +61,9 @@ COMPONENT_STATUS_MESSAGES = {
 }
 
 # [TIMESTAMP][STATUS][COMPONENT][MESSAGE]
+
+p = Path("../data/robot_data.log")
+p.parent.mkdir(parents=True, exist_ok=True)
 
 with p.open('w') as file:
     utc_timestamp = datetime.datetime.now(datetime.timezone.utc)
