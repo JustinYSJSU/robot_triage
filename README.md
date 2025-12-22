@@ -12,3 +12,8 @@
     - ERROR: Damaging component behavior
   - Distribution of log results by component
 
+## Folder / File Structure
+- `src/` -> Contains files for log generation and log triage
+  - `generate_logs.py` -> File for generating robot telemetry logs
+  - `triage.py` -> File for "triaging" the give telemetry logs. Returns analytics for mission time, log result distribution, and log results by component
+- `app.py` -> File for streamlit app. Displays triage data via streamlit charts.
