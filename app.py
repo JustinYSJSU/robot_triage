@@ -21,7 +21,7 @@ with st.sidebar:
     st.divider()
 
 st.title("Robotics Log Triage")
-st.markdown("### Fleet Health & Mission Diagnostics")
+st.markdown("### Mission Diagnostics")
 st.divider()
 
 if generate_btn:

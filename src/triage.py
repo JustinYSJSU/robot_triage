@@ -1,13 +1,6 @@
 import pandas as pd
 from pathlib import Path
 
-'''
-current_dir = Path(__file__).parent.parent
-p = current_dir / "data" / "robot_data.log"
-p.parent.mkdir(parents=True, exist_ok=True)
-df = pd.read_csv(p, sep='|', names=['timestamp', 'component_status', 'component', 'component_status_message'], encoding='ISO-8859-1')
-'''
-
 def calculate_mission_time(df):
     '''
     Calculate total time of the mission
