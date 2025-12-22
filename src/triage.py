@@ -42,7 +42,7 @@ def calculate_status_count(df):
             status_dict[row.component_status] = 1
     return status_dict
 
-def calculate_culprints(df):
+def calculate_culprits(df):
     '''
     Calculate the "culprit" of each component status
     "culprit" refers to the component with the highest count of a status
