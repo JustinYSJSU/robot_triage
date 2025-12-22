@@ -1,7 +1,9 @@
 import datetime
 import random
+from datetime import timedelta
+from pathlib import Path
 
-FILE_NAME = "robot_data.log"
+FILE_PATH_AND_NAME = "../data/robot_data.log"
 FILE_LENGTH = 500
 COMPONENTS = [
     "PERCEPTION",
@@ -9,6 +11,9 @@ COMPONENTS = [
     "ACTUATORS",
     "POWER"
 ]
+
+p = Path("../data/robot_data.log")
+p.parent.mkdir(parents=True, exist_ok=True)
 
 COMPONENT_STATUS_MESSAGES = {
     "PERCEPTION":{
@@ -61,9 +66,9 @@ COMPONENT_STATUS_MESSAGES = {
 
 # [TIMESTAMP][STATUS][COMPONENT][MESSAGE]
 
-with open(FILE_NAME, 'w') as file:
+with p.open('w') as file:
+    utc_timestamp = datetime.datetime.now(datetime.timezone.utc)
     for x in range (0,FILE_LENGTH):
-        utc_timestamp = datetime.datetime.now(datetime.timezone.utc)
         component = random.choice(COMPONENTS)
 
         component_status = ""
@@ -108,6 +113,9 @@ with open(FILE_NAME, 'w') as file:
             else:
                 component_message = random.choice(COMPONENT_STATUS_MESSAGES['POWER']['ERROR'])
         file.write(f"{utc_timestamp} | {component_status} | {component} | {component_message} \n")
+        utc_timestamp += timedelta(seconds=random.randint(5, 10))
+        
+        
 
         
 
