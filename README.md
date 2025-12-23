@@ -1,5 +1,4 @@
-# Robotics Log Triage
-
+# Autonomous System Root Cause Analysis (RCA) Tool
 ## Objective
 A diagnostic tool designed to drive Root Cause Analysis (RCA) for an autonomous system.. This tool generates and analyzes raw telemetry `.log` files from an autonomous system and identifies system failures across Perception, Navigation, Actuators, and Power components.
 
