@@ -15,6 +15,7 @@ A diagnostic tool designed to drive Root Cause Analysis (RCA) for an autonomous 
   - Status by Component: Total number of statues per component.
    
 ## Folder / File Structure
+```
 .
 ├── data/                 # Generated telemetry logs (not committed to repository)
 ├── src/
@@ -22,3 +23,4 @@ A diagnostic tool designed to drive Root Cause Analysis (RCA) for an autonomous 
 │   └── triage.py         # Triage + Analysis
 ├── app.py                # Streamlit
 └── requirements.txt      # Dependencies
+```
