@@ -5,6 +5,13 @@ A diagnostic tool designed to drive Root Cause Analysis (RCA) for an autonomous 
 
 
 ## Features 
+- Telemetry Log Generation
+  - Generate 500 line long `.log` files to simulate autonomous system performance.
+  - Each line includes timestamp, component status (INFO, WARN, ERROR), component affected, and component status message
+  - Logs are generaeted with realistic rates for component stauts (90% INFO, 7% WARN, 3% ERROR).
+ 
+- Log Triage
+   
 ## Folder / File Structure
 - `src/` -> Contains files for log generation and log triage
   - `generate_logs.py` -> File for generating robot telemetry logs
