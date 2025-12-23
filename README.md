@@ -1,7 +1,7 @@
 # Robotics Log Triage
 
 ## Objective
-A diagnostic tool designed to drive Root Cause Analysis (RCA) for an autonomous system.. This tool generates and analyzes raw telemetry `.log` files from an autonomous system and identifies system failures across Perception, Navigation, Acuators, and Power components.
+A diagnostic tool designed to drive Root Cause Analysis (RCA) for an autonomous system.. This tool generates and analyzes raw telemetry `.log` files from an autonomous system and identifies system failures across Perception, Navigation, Actuators, and Power components.
 
 ## Features 
 - Telemetry Log Generation
@@ -11,7 +11,7 @@ A diagnostic tool designed to drive Root Cause Analysis (RCA) for an autonomous 
  
 - Log Triage
   - Mission Time: Total time taken for mission completion.
-  - Status Occurence: Occurate rate of each statue across the given missison.
+  - Status Occurence: Occurance rate of each statue across the given missison.
   - Status by Component: Total number of statues per component.
    
 ## Folder / File Structure
