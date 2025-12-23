@@ -1,17 +1,10 @@
 # Robotics Log Triage
 
 ## Objective
-- An interactive triage dashboard for (simulated) robotics telemetry logs
-- Automatically create randomized triage logs for a robot with the following components:
-  - Perception, Navigation, Actuators, Power
-- Generate analytics from triage logs regarding:
-  - Total Mission Time
-  - Distribution of log results 
-    - INFO: Standard component behavior
-    - WARN: Potentially damaging component behavior
-    - ERROR: Damaging component behavior
-  - Distribution of log results by component
+A diagnostic tool designed to improve Root Cause Analysis (RCA) for an autonomous system.. This tool analyzes raw telemetry .log from an autonomous system and identifies system failures across Perception, Navigation, Acuators, and Power components.
 
+
+## Features 
 ## Folder / File Structure
 - `src/` -> Contains files for log generation and log triage
   - `generate_logs.py` -> File for generating robot telemetry logs
