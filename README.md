@@ -15,8 +15,10 @@ A diagnostic tool designed to drive Root Cause Analysis (RCA) for an autonomous 
   - Status by Component: Total number of statues per component.
    
 ## Folder / File Structure
-- `src/` -> Contains files for log generation and log triage.
-  - `generate_logs.py` -> File for generating robot telemetry logs.
-  - `triage.py` -> File for "triaging" the give telemetry logs. Returns analytics for mission time, log result distribution, and log results by component.
-- `app.py` -> File for streamlit app. Displays triage data via streamlit charts.
-- `requirements.txt` -> File containing project dependencies.
+.
+├── data/                 # Generated telemetry logs (not committed to repository)
+├── src/
+│   ├── generate_logs.py  # Log Generation
+│   └── triage.py         # Triage + Analysis
+├── app.py                # Streamlit
+└── requirements.txt      # Dependencies
