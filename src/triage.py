@@ -19,7 +19,7 @@ def calculate_mission_time(df):
     minutes = (seconds % 3600) // 60
     seconds = seconds % 60
 
-    mission_time_string = f"{hours} hours {minutes} minutes {seconds} seconds"
+    mission_time_string = f"{hours}HRS:{minutes}MIN:{seconds}S"
     return mission_time_string
 
 def calculate_status_count(df):
